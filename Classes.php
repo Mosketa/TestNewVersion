@@ -4,7 +4,9 @@
 class Vegetable {
 
    var $edible;
+   var $gree;
    var $color;
+   var $blue;
 
    function __construct($edible, $color="green")
    {
@@ -27,6 +29,7 @@ class Vegetable {
 class Spinach extends Vegetable {
 
    var $cooked = false;
+   var $test;
 
    function __construct()
    {
